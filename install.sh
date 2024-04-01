@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Check OS with uname
+if [ "$(uname)" != "Darwin" ]; then
+  echo "This script is for OSX only. Exiting."
+  exit 1;
+fi
+
 OSX_CODE_DIR="$HOME/Library/Application Support/Code/User"
 
 # Make a backup of keybinds.json at the same location
