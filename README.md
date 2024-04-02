@@ -1,7 +1,5 @@
 # VSCode Custom Keybindings Configuration
 
-**DOESN'T WORK WITH WINDOWS** and Linux. But we hate Windows. I will probably make it support Linux at some point. But Windows - nope.
-
 ## CHEATSHEET
 
 `<leader> = space`
