@@ -4,10 +4,14 @@
 
 ## CHEATSHEET
 
+`<leader> = space`
+
 | Command           | Key                       |
 | ----------------- | ------------------------- |
 | `Shift + k`       | Display Info              |
 | `Cmd + backspace` | Toggle Sidebar Visibility |
+| `<leader> + d`    | Go To Definition          |
+| `<leader> + r`    | Show References           |
 
 TODO:
 

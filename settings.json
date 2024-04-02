@@ -1,0 +1,16 @@
+{
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["editor.action.goToImplementation"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["editor.action.goToImplementation"]
+    }
+  ],
+  "editor.lineNumbers": "relative"
+}
