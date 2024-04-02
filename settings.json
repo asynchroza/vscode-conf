@@ -2,14 +2,32 @@
   "vim.leader": "<space>",
   "vim.insertModeKeyBindings": [
     {
-      "before": ["<leader>", "d"],
+      "before": ["<leader>", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["<leader>", "i"],
       "commands": ["editor.action.goToImplementation"]
     }
   ],
   "vim.normalModeKeyBindings": [
     {
-      "before": ["<leader>", "d"],
+      "before": ["<leader>", "i"],
       "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["<leader>", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before" : ["<leader>","e"],
+      "commands" : [
+        "workbench.view.explorer"
+      ]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": [ "workbench.view.search"]
     }
   ],
   "editor.lineNumbers": "relative"
