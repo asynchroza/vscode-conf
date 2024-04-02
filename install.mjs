@@ -57,7 +57,6 @@ try {
   if (verbose) {
     console.error(error);
   }
-
   exit(1);
 }
 
