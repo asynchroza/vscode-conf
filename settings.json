@@ -28,6 +28,10 @@
     {
       "before": ["<leader>", "f"],
       "commands": [ "workbench.view.search"]
+    },
+    {
+      "before": ["<S-k>"],
+      "commands": ["editor.action.showHover"]
     }
   ],
   "editor.lineNumbers": "relative"

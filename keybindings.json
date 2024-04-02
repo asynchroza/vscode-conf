@@ -48,10 +48,6 @@
     "command": "workbench.action.focusThirdEditorGroup"
   },
   {
-    "key": "shift+k",
-    "command": "editor.action.showHover"
-  },
-  {
     "key": "shift+cmd+f",
     "command": "workbench.view.search"
   },
