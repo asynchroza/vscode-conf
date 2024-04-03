@@ -1,15 +1,6 @@
 {
   "vim.leader": "<space>",
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["<leader>", "i"],
-      "commands": ["editor.action.goToImplementation"]
-    },
-    {
-      "before": ["<leader>", "i"],
-      "commands": ["editor.action.goToImplementation"]
-    }
-  ],
+  "vim.insertModeKeyBindings": [],
   "vim.normalModeKeyBindings": [
     {
       "before": ["<leader>", "i"],
