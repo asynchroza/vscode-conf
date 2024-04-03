@@ -56,7 +56,7 @@
     "command": "workbench.view.explorer"
   },
   {
-    "key": "cmd+backspace",
+    "key": "shift+backspace",
     "command": "workbench.action.toggleSidebarVisibility"
   }
 ]
